@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dbz_reborn/static/css/main.073c9b0a.css",
-    "main.js": "/dbz_reborn/static/js/main.13d42621.js",
+    "main.css": "/dbz_reborn/static/css/main.ff24fb60.css",
+    "main.js": "/dbz_reborn/static/js/main.e7a3d7df.js",
     "static/js/787.e5727cb6.chunk.js": "/dbz_reborn/static/js/787.e5727cb6.chunk.js",
-    "static/media/logo.svg": "/dbz_reborn/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/gohan_not_found.jpeg": "/dbz_reborn/static/media/gohan_not_found.c53d338149ad2f562bd0.jpeg",
     "index.html": "/dbz_reborn/index.html",
-    "main.073c9b0a.css.map": "/dbz_reborn/static/css/main.073c9b0a.css.map",
-    "main.13d42621.js.map": "/dbz_reborn/static/js/main.13d42621.js.map",
+    "main.ff24fb60.css.map": "/dbz_reborn/static/css/main.ff24fb60.css.map",
+    "main.e7a3d7df.js.map": "/dbz_reborn/static/js/main.e7a3d7df.js.map",
     "787.e5727cb6.chunk.js.map": "/dbz_reborn/static/js/787.e5727cb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.13d42621.js"
+    "static/css/main.ff24fb60.css",
+    "static/js/main.e7a3d7df.js"
   ]
 }
