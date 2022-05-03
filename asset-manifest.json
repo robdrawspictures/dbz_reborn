@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/dbz_reborn/static/css/main.563327c2.css",
-    "main.js": "/dbz_reborn/static/js/main.e102e0e8.js",
+    "main.css": "/dbz_reborn/static/css/main.64c2c2d6.css",
+    "main.js": "/dbz_reborn/static/js/main.a9f427eb.js",
     "static/js/787.e5727cb6.chunk.js": "/dbz_reborn/static/js/787.e5727cb6.chunk.js",
+    "static/media/shenron.png": "/dbz_reborn/static/media/shenron.5aca9bc892252be7d0b1.png",
+    "static/media/logo.png": "/dbz_reborn/static/media/logo.7e150dd392ab2bc97f9a.png",
     "static/media/gohan_not_found.jpeg": "/dbz_reborn/static/media/gohan_not_found.c53d338149ad2f562bd0.jpeg",
     "static/media/skin11.jpeg": "/dbz_reborn/static/media/skin11.bb680d11235512031da8.jpeg",
     "static/media/skin1.jpeg": "/dbz_reborn/static/media/skin1.f6aad26e332d5964d5ff.jpeg",
@@ -15,12 +17,12 @@
     "static/media/skin2.jpeg": "/dbz_reborn/static/media/skin2.88adc0b5abb2eba05711.jpeg",
     "static/media/skin15.jpeg": "/dbz_reborn/static/media/skin15.f3f360fd3174afdd2dc8.jpeg",
     "index.html": "/dbz_reborn/index.html",
-    "main.563327c2.css.map": "/dbz_reborn/static/css/main.563327c2.css.map",
-    "main.e102e0e8.js.map": "/dbz_reborn/static/js/main.e102e0e8.js.map",
+    "main.64c2c2d6.css.map": "/dbz_reborn/static/css/main.64c2c2d6.css.map",
+    "main.a9f427eb.js.map": "/dbz_reborn/static/js/main.a9f427eb.js.map",
     "787.e5727cb6.chunk.js.map": "/dbz_reborn/static/js/787.e5727cb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.563327c2.css",
-    "static/js/main.e102e0e8.js"
+    "static/css/main.64c2c2d6.css",
+    "static/js/main.a9f427eb.js"
   ]
 }
