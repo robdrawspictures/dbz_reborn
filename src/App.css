@@ -33,6 +33,22 @@ body {
   justify-content: center;
 }
 
+.skins {
+  padding-left: 25%;
+  
+}
+
+.skin-container{
+  margin: auto;
+  width: 50%;
+  font-size: 24px;
+  border: solid greenyellow 3px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
 .not-found {
   padding-left: 25%;
   text-align: center;
