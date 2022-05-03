@@ -1,5 +1,7 @@
 import gokuPowerUp from "../assets/img/goku.gif"
 import gohanTraining from "../assets/img/gohan_not_found.jpeg"
+import shenron from "../assets/img/shenron.png"
+import logo from "../assets/img/logo.png"
 
 //Skins
 import skin1 from "../assets/img/skins/skin1.jpeg"
@@ -23,7 +25,9 @@ const gifs = {
 }
 
 const Images = {
-    gohanTraining
+    gohanTraining,
+    shenron,
+    logo
 }
 
 const Skins = {

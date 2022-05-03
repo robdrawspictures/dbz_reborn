@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Assets from './Assets';
 
 const SideNav = (props) => {
 
@@ -11,6 +12,8 @@ const SideNav = (props) => {
             <Link to="/winamp">Winamp Skins</Link>
             <Link to="/gifs">Animations</Link>
             <Link to="/fan_art">Fan Art</Link>
+            <br></br>
+            <img src={Assets.Images.shenron} alt="shenron" width="250"/>
         </div>
     )
 }
