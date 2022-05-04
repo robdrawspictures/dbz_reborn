@@ -1,11 +1,27 @@
 {
   "files": {
-    "main.css": "/dbz_reborn/static/css/main.64c2c2d6.css",
-    "main.js": "/dbz_reborn/static/js/main.a9f427eb.js",
+    "main.css": "/dbz_reborn/static/css/main.c082f5c3.css",
+    "main.js": "/dbz_reborn/static/js/main.ef8c75d7.js",
     "static/js/787.e5727cb6.chunk.js": "/dbz_reborn/static/js/787.e5727cb6.chunk.js",
+    "static/media/Bayo.PNG": "/dbz_reborn/static/media/Bayo.b7630e630a9ad8b8aba6.PNG",
+    "static/media/Genos.PNG": "/dbz_reborn/static/media/Genos.3e427b7962429f3ea123.PNG",
+    "static/media/Catwoman.PNG": "/dbz_reborn/static/media/Catwoman.2598d78bbed5e2b8646a.PNG",
+    "static/media/Bowsette.PNG": "/dbz_reborn/static/media/Bowsette.22cf2b87edc206a323e9.PNG",
+    "static/media/Vash.PNG": "/dbz_reborn/static/media/Vash.1714e9169c012a403c3d.PNG",
+    "static/media/Erased.PNG": "/dbz_reborn/static/media/Erased.c05f7345f3b9f230fcf9.PNG",
+    "static/media/Goku.PNG": "/dbz_reborn/static/media/Goku.b69284709f59e66caded.PNG",
+    "static/media/Miku.PNG": "/dbz_reborn/static/media/Miku.f3a8d829408d8eacc15b.PNG",
+    "static/media/Chie.PNG": "/dbz_reborn/static/media/Chie.ea7646f30564525f1a22.PNG",
+    "static/media/Nozaki.PNG": "/dbz_reborn/static/media/Nozaki.d70879e7d9ac51b0085a.PNG",
+    "static/media/Futaba.PNG": "/dbz_reborn/static/media/Futaba.dea172fe252c02fe9254.PNG",
+    "static/media/SunKen.PNG": "/dbz_reborn/static/media/SunKen.fa764f210c62f961b540.PNG",
+    "static/media/BlendS.PNG": "/dbz_reborn/static/media/BlendS.84d31eca2ee8f77291c5.PNG",
+    "static/media/Paimon.PNG": "/dbz_reborn/static/media/Paimon.abc4f7861425aeb35ec0.PNG",
+    "static/media/Komi.PNG": "/dbz_reborn/static/media/Komi.a74cb74c9e89e54868f7.PNG",
     "static/media/shenron.png": "/dbz_reborn/static/media/shenron.5aca9bc892252be7d0b1.png",
     "static/media/logo.png": "/dbz_reborn/static/media/logo.7e150dd392ab2bc97f9a.png",
     "static/media/gohan_not_found.jpeg": "/dbz_reborn/static/media/gohan_not_found.c53d338149ad2f562bd0.jpeg",
+    "static/media/ball.png": "/dbz_reborn/static/media/ball.1124d7e28f46a6407aca.png",
     "static/media/skin11.jpeg": "/dbz_reborn/static/media/skin11.bb680d11235512031da8.jpeg",
     "static/media/skin1.jpeg": "/dbz_reborn/static/media/skin1.f6aad26e332d5964d5ff.jpeg",
     "static/media/skin10.jpeg": "/dbz_reborn/static/media/skin10.e74785f166538978e2a5.jpeg",
@@ -17,12 +33,12 @@
     "static/media/skin2.jpeg": "/dbz_reborn/static/media/skin2.88adc0b5abb2eba05711.jpeg",
     "static/media/skin15.jpeg": "/dbz_reborn/static/media/skin15.f3f360fd3174afdd2dc8.jpeg",
     "index.html": "/dbz_reborn/index.html",
-    "main.64c2c2d6.css.map": "/dbz_reborn/static/css/main.64c2c2d6.css.map",
-    "main.a9f427eb.js.map": "/dbz_reborn/static/js/main.a9f427eb.js.map",
+    "main.c082f5c3.css.map": "/dbz_reborn/static/css/main.c082f5c3.css.map",
+    "main.ef8c75d7.js.map": "/dbz_reborn/static/js/main.ef8c75d7.js.map",
     "787.e5727cb6.chunk.js.map": "/dbz_reborn/static/js/787.e5727cb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c2c2d6.css",
-    "static/js/main.a9f427eb.js"
+    "static/css/main.c082f5c3.css",
+    "static/js/main.ef8c75d7.js"
   ]
 }
