@@ -22,7 +22,11 @@ const MainContainer = (props, state) => {
     return (
         <div className='container'>
         <button onClick={openSideNav}>>></button>
+        <div className='banner'>
+        <img src={Assets.Images.ball} alt='dragonball' width="150"/>
         <img id="logo" src={Assets.Images.logo} alt="logo" width="500"/>
+        <img src={Assets.Images.ball} alt='dragonball' width="150"/>
+        </div>
         <Router>
             <Fragment>
                 <SideNav width = {wid} closeNav = {closeSideNav}/>

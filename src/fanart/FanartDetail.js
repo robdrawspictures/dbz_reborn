@@ -12,7 +12,8 @@ const FanartDetail = () => {
         if(parseInt(params.id) === parseInt(index)){
         return (
            <img src={url} alt="Hi-res" width="50%" key={index}/>
-        )
+        )} else {
+            return null
         }
     })
 
@@ -31,11 +32,11 @@ const FanartDetail = () => {
     return (
         <Fragment>
         <div className="img-detail">
-            <button><Link to={handlePrev()}>Previous</Link></button>
-            {fanart}
-            <button><Link to={handleNext()}>Next</Link></button>
+            <Link to={parseInt(params.id) !== 0 ? handlePrev() : "/fanart/"}><button className="gallery-nav">◀︎</button></Link>
+                {fanart}
+            <Link to={handleNext()}><button className="gallery-nav">►</button></Link>
         </div>
-        <button className="back"><Link to="/fanart/">Go Back</Link></button>
+        <Link to="/fanart/"><button className="back">BACK</button></Link>
         </Fragment>
     )
 }
