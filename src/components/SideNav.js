@@ -11,7 +11,7 @@ const SideNav = (props) => {
             <Link to="/galleries">Galleries</Link>
             <Link to="/winamp">Winamp Skins</Link>
             <Link to="/gifs">Animations</Link>
-            <Link to="/fan_art">Fan Art</Link>
+            <Link to="/fanart">Fan Art</Link>
             <br></br>
             <img src={Assets.Images.shenron} alt="shenron" width="250"/>
         </div>

@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import SideNav from '../SideNav';
 import Home from '../Home';
 import Winamp from '../Winamp';
+import FanartList from '../../fanart/FanartList';
 import NotFound from '../NotFound';
 import Assets from '../Assets';
 
@@ -27,6 +28,7 @@ const MainContainer = (props, state) => {
                 <Routes>
                     <Route path="/dbz_reborn" element={<Home/>}/>
                     <Route path="/winamp" element={<Winamp/>}/>
+                    <Route path="/fanart" element={<FanartList/>}/>
                     <Route path="/*" element={<NotFound/>}/>
                 </Routes>
             </Fragment>

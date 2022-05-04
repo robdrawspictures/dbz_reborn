@@ -3,6 +3,23 @@ import gohanTraining from "../assets/img/gohan_not_found.jpeg"
 import shenron from "../assets/img/shenron.png"
 import logo from "../assets/img/logo.png"
 
+//Fanart
+import Bayo from "../assets/img/fan/Bayo.PNG"
+import BlendS from "../assets/img/fan/BlendS.PNG"
+import Bowsette from "../assets/img/fan/Bowsette.PNG"
+import Catwoman from "../assets/img/fan/Catwoman.PNG"
+import Chie from "../assets/img/fan/Chie.PNG"
+import Erased from "../assets/img/fan/Erased.PNG"
+import Futaba from "../assets/img/fan/Futaba.PNG"
+import Genos from "../assets/img/fan/Genos.PNG"
+import Goku from "../assets/img/fan/Goku.PNG"
+import Komi from "../assets/img/fan/Komi.PNG"
+import Miku from "../assets/img/fan/Miku.PNG"
+import Nozaki from "../assets/img/fan/Nozaki.PNG"
+import Paimon from "../assets/img/fan/Paimon.PNG"
+import SunKen from "../assets/img/fan/SunKen.PNG"
+import Vash from "../assets/img/fan/Vash.PNG"
+
 //Skins
 import skin1 from "../assets/img/skins/skin1.jpeg"
 import skin2 from "../assets/img/skins/skin2.jpeg"
@@ -30,6 +47,24 @@ const Images = {
     logo
 }
 
+const Fanart = {
+    Bayo,
+    BlendS,
+    Bowsette,
+    Catwoman,
+    Chie,
+    Erased,
+    Futaba,
+    Genos,
+    Goku,
+    Komi,
+    Miku,
+    Nozaki,
+    Paimon,
+    SunKen,
+    Vash
+}
+
 const Skins = {
     skin1,
     skin2,
@@ -51,6 +86,7 @@ const Skins = {
 const Assets = {
     gifs,
     Images,
+    Fanart,
     Skins
 }
 
