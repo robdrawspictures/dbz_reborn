@@ -38,6 +38,11 @@ import skin13 from "../assets/img/skins/skin13.jpeg"
 import skin14 from "../assets/img/skins/skin14.jpeg"
 import skin15 from "../assets/img/skins/skin15.jpeg"
 
+//Music
+import trunks from '../assets/mus/sb2trunks.mp3'
+import gohan from '../assets/mus/sb2gohan.mp3'
+import ending from '../assets/mus/sb2ending.mp3'
+
 const gifs = {
     gokuPowerUp
 }
@@ -85,11 +90,18 @@ const Skins = {
     skin15
 }
 
+const BGM = {
+    TrunksBGM: new Audio(trunks),
+    GohanBGM: new Audio(gohan),
+    EndBGM: new Audio(ending)
+}
+
 const Assets = {
     gifs,
     Images,
     Fanart,
-    Skins
+    Skins,
+    BGM
 }
 
 export default Assets;
