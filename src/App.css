@@ -126,6 +126,18 @@ body {
   font-family: 'Oswald';
 }
 
+.gallery-list {
+  padding-left: 25%;
+  text-align: center;
+}
+
+.gallery-detail {
+  width: 100%;
+  padding-left: 25%;
+  text-align: center;
+  /* background-image: url(https://placekitten.com/200/300); */
+}
+
 .not-found {
   padding-left: 25%;
   text-align: center;

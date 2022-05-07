@@ -5,6 +5,8 @@ import Home from '../Home';
 import Winamp from '../Winamp';
 import FanartList from '../../fanart/FanartList';
 import FanartDetail from '../../fanart/FanartDetail';
+import GalleryList from '../../gallery/GalleryList';
+import GalleryDetail from '../../gallery/GalleryDetail';
 import NotFound from '../NotFound';
 import Assets from '../Assets';
 
@@ -35,6 +37,8 @@ const MainContainer = (props, state) => {
                     <Route path="/winamp" element={<Winamp/>}/>
                     <Route path="/fanart" element={<FanartList/>}/>
                     <Route path='/fanart/:id' element={<FanartDetail/>}/>
+                    <Route path='/galleries' element={<GalleryList/>}/>
+                    <Route path='/galleries/:name' element={<GalleryDetail/>}/>
                     <Route path="/*" element={<NotFound/>}/>
                 </Routes>
             </Fragment>

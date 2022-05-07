@@ -38,6 +38,14 @@ import skin13 from "../assets/img/skins/skin13.jpeg"
 import skin14 from "../assets/img/skins/skin14.jpeg"
 import skin15 from "../assets/img/skins/skin15.jpeg"
 
+//Background Images
+import goku from "../assets/img/gokubg.png"
+import vegeta from "../assets/img/vegetabg.png"
+import picollo from "../assets/img/picollobg.png"
+import gogeta from "../assets/img/gogetabg.png"
+import vegetto from "../assets/img/vegettobg.png"
+import gotenks from "../assets/img/gotenksbg.png"
+
 //Music
 import trunks from '../assets/mus/sb2trunks.mp3'
 import gohan from '../assets/mus/sb2gohan.mp3'
@@ -90,6 +98,15 @@ const Skins = {
     skin15
 }
 
+const BackIMG = {
+    goku,
+    vegeta,
+    picollo,
+    gogeta,
+    vegetto,
+    gotenks
+}
+
 const BGM = {
     TrunksBGM: new Audio(trunks),
     GohanBGM: new Audio(gohan),
@@ -101,6 +118,7 @@ const Assets = {
     Images,
     Fanart,
     Skins,
+    BackIMG,
     BGM
 }
 
