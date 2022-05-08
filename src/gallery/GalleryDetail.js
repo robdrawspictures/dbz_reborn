@@ -1,27 +1,38 @@
 import React, {Fragment} from "react";
-import { useParams } from "react-router-dom";
+import {Link, useParams } from "react-router-dom";
 import Assets from "../components/Assets";
+import GalleryItem from "./GalleryItem";
 
 const GalleryDetail = () => {
 
     const params = useParams();
-    const background = Assets.BackIMG[params.name]
+    const path = params.name + "_bg"
+    const background = Assets.BackIMG[path]
     // console.log(background)
 
-    const style = {
-        backgroundImage: `url(${background})`,
-        backgroundSize: "cover",
-    }
+    const gallery = Assets[params.name]
+    const galleryKeys = Object.keys(gallery)
+    const gallerySize = Object.keys(gallery).length;
+    console.log(gallerySize);
 
-    // console.log(style.backgroundImage)
+    const galleryNodes = galleryKeys.map((image, index) => {
+        return (
+            <div className="gallery-item" key={index}>
+                <GalleryItem image={image} index={index}/>
+            </div>
+        )
+    })
 
     return (
         <Fragment>
         <div className="gallery-detail" style={{
-            backgroundImage: `url(${background})`,
+            backgroundImage: `url(${background})`
         }}>
-            <h1>This is the gallery for {params.name}</h1>
-            <img src={Assets.BackIMG[params.name]} alt="knobs"/>
+            <h1>{params.name.toUpperCase()}</h1>
+            <div className="fanart-item">
+                {galleryNodes}
+            </div>
+            <Link to='/galleries'><button className="back">BACK</button></Link>
         </div>
         </Fragment>
     )

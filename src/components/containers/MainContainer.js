@@ -23,7 +23,7 @@ const MainContainer = (props, state) => {
 
     return (
         <div className='container'>
-        <button onClick={openSideNav}>>></button>
+        <button className='open-sidebar' onClick={openSideNav}>>></button>
         <div className='banner'>
         <img src={Assets.Images.ball} alt='dragonball' width="150"/>
         <img id="logo" src={Assets.Images.logo} alt="logo" width="500"/>

@@ -5,6 +5,11 @@ body {
   font-size: 42px;
 }
 
+.open-sidebar {
+  position: absolute;
+  z-index: 1;
+}
+
 .banner {
   padding-left: 25%;
   display: flex;
@@ -128,14 +133,21 @@ body {
 
 .gallery-list {
   padding-left: 25%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/img/tablebg2.jpg);
 }
 
 .gallery-detail {
-  width: 100%;
   padding-left: 25%;
   text-align: center;
-  /* background-image: url(https://placekitten.com/200/300); */
+}
+
+.gallery-item-container {
+  border: solid greenyellow 3px;
+  border-radius: 5px;
 }
 
 .not-found {
@@ -161,7 +173,8 @@ a {
 }
 
 footer {
+  position: relative;
   font-size: 16px;
-  padding: 50px 10px 10px 10px;
+  padding: 0px 10px 10px 10px;
   text-align: end;
 }
