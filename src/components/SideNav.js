@@ -58,6 +58,7 @@ const SideNav = (props) => {
             <Link to="/winamp">Winamp Skins</Link>
             <Link to="/gifs">Animations</Link>
             <Link to="/fanart">Fan Art</Link>
+            <a href="https://www.angelfire.com/dbz/dbzstar69/dbz.htm">Original Site</a>
             <div className='bgm-player'>
                 <div className='bgm-combo'>
                     <p className='bgm-title'>Trunks Theme |</p>

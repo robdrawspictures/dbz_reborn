@@ -12,8 +12,7 @@ const GalleryDetail = () => {
 
     const gallery = Assets[params.name]
     const galleryKeys = Object.keys(gallery)
-    const gallerySize = Object.keys(gallery).length;
-    console.log(gallerySize);
+    // const gallerySize = Object.keys(gallery).length;
 
     const galleryNodes = galleryKeys.map((image, index) => {
         return (

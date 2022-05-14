@@ -7,6 +7,7 @@ import FanartList from '../../fanart/FanartList';
 import FanartDetail from '../../fanart/FanartDetail';
 import GalleryList from '../../gallery/GalleryList';
 import GalleryDetail from '../../gallery/GalleryDetail';
+import GalleryImageViewer from '../../gallery/GalleryImageViewer';
 import NotFound from '../NotFound';
 import Assets from '../Assets';
 
@@ -39,6 +40,7 @@ const MainContainer = (props, state) => {
                     <Route path='/fanart/:id' element={<FanartDetail/>}/>
                     <Route path='/galleries' element={<GalleryList/>}/>
                     <Route path='/galleries/:name' element={<GalleryDetail/>}/>
+                    <Route path='/galleries/:name/:id' element={<GalleryImageViewer/>}/>
                     <Route path="/*" element={<NotFound/>}/>
                 </Routes>
             </Fragment>
